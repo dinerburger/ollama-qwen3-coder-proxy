@@ -1,12 +1,12 @@
-# Ollama Qwen Coder Proxy
+# Ollama Qwen3-Coder Proxy
 
 This proxy enables tool calling functionality with the Qwen3 Coder model by converting
-Qwen-style tool call formats to Ollama-compatible formats.
+Qwen3-Coder-style tool call formats to Ollama-compatible formats.
 
 ## Why This Project?
 
 The Qwen3 Coder model uses a specific XML-based tool call format that isn't directly
-compatible with Ollama's standard tool calling interface. This proxy translates between these
+compatible with Ollama's standard tool calling interface (OpenAI compatible). This proxy translates between these
 formats, enabling seamless tool usage with the Qwen3 Coder model.
 
 ## Getting Started
