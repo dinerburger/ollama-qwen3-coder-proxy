@@ -465,6 +465,10 @@ async def _passthrough(request: Request, path: str, method: str = "POST") -> Res
     return StreamingResponse(stream_passthrough(), media_type="application/octet-stream")
 
 
+@app.get("/v1/models")
+async def list_models_oai(request: Request) -> Response:
+    return await _passthrough(request, "/v1/models", method="GET")
+
 @app.get("/api/tags")
 async def list_models(request: Request) -> Response:
     return await _passthrough(request, "/api/tags", method="GET")

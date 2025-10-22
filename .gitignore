@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / pyc
+__pycache__/ 
+*.pyc 
+
+# C extension
+*.so 
+
+# Distribution / packaging
+.Python 
+build/ 
+develop-eggs/ 
+dist/ 
+downloads/ 
+egg-info/ 
+*.egg-info/ 
+wheels/ 
+
+# PyInstaller
+#  *-tag-*.egg-info/ 
+
+# env
+.env/ 
+venv/
+.venv/
+
+# IDE
+.idea/ 
+*.swp 
+
+# OS
+.DS_Store 
+Thumbs.db 
+
+# misc
+*.pyc 
+*.pyo 
+*.pyd 
+
+# logs
+logs/ 
+*.log 
+
+# temp files
+*~ 
+*.tmp 
+*.bak 
+*.old 
+*.new 
+*.swp 
